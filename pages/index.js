@@ -16,7 +16,7 @@ export default function Home() {
         data-aos="fade-down"
       >
         <div className="container">
-          <a href="/index.html" className="navbar-brand">
+          <a href="/" className="navbar-brand">
             <img src="/images/logo-covendor.svg" alt="Logo" />
           </a>
           <button
@@ -92,6 +92,30 @@ export default function Home() {
                       />
                     </div>
                   </div>
+                  <a
+                    className="carousel-control-prev"
+                    href="#storeCarousel"
+                    role="button"
+                    data-slide="prev"
+                  >
+                    <span
+                      className="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span className="sr-only">Previous</span>
+                  </a>
+                  <a
+                    className="carousel-control-next"
+                    href="#storeCarousel"
+                    role="button"
+                    data-slide="next"
+                  >
+                    <span
+                      className="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span className="sr-only">Next</span>
+                  </a>
                 </div>
               </div>
             </div>
