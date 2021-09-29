@@ -29,19 +29,20 @@ export default function Home() {
           </button>
           <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item active">
-                <a href="/index.html" className="nav-link">
-                  Home
+              <li className="nav-item">
+                <a
+                  href="/login.html"
+                  className="btn btn-outline-warning nav-link px-4"
+                >
+                  Login
                 </a>
               </li>
               <li className="nav-item">
-                <a href="/register.html" className="nav-link">
-                  Sign Up
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href="/login.html" className="btn btn-warning nav-link px-4">
-                  Sign In
+                <a
+                  href="/register.html"
+                  className="btn btn-warning nav-link px-4"
+                >
+                  Daftar
                 </a>
               </li>
             </ul>
@@ -101,104 +102,88 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="col-12" data-aos="fade-up">
-                <h5>Trend Categories</h5>
+                <h5>Brands</h5>
               </div>
             </div>
             <div className="row">
               <div
-                className="col-6 col-md-3 col-lg-2"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <a href="#" className="component-categories d-block">
-                  <div className="categories-image">
-                    <img
-                      src="/images/categories-gadgets.svg"
-                      alt=""
-                      className="w-100"
-                    />
-                  </div>
-                  <p className="categories-text">Gadgets</p>
-                </a>
-              </div>
-              <div
-                className="col-6 col-md-3 col-lg-2"
+                className="col-6 col-md-3 col-lg-2 mx-auto"
                 data-aos="fade-up"
                 data-aos-delay="200"
               >
                 <a href="#" className="component-categories d-block">
                   <div className="categories-image">
                     <img
-                      src="/images/categories-furniture.svg"
+                      src="/images/brands-mitsubishi.jpg"
                       alt=""
                       className="w-100"
                     />
                   </div>
-                  <p className="categories-text">Furniture</p>
+                  <p className="categories-text">Mitsubishi</p>
                 </a>
               </div>
               <div
-                className="col-6 col-md-3 col-lg-2"
+                className="col-6 col-md-3 col-lg-2 mx-auto"
                 data-aos="fade-up"
                 data-aos-delay="300"
               >
                 <a href="#" className="component-categories d-block">
                   <div className="categories-image">
                     <img
-                      src="/images/categories-makeup.svg"
+                      src="/images/brands-toyota.jpg"
                       alt=""
                       className="w-100"
                     />
                   </div>
-                  <p className="categories-text">Make Up</p>
+                  <p className="categories-text">Toyota</p>
                 </a>
               </div>
               <div
-                className="col-6 col-md-3 col-lg-2"
+                className="col-6 col-md-3 col-lg-2 mx-auto"
                 data-aos="fade-up"
                 data-aos-delay="400"
               >
                 <a href="#" className="component-categories d-block">
                   <div className="categories-image">
                     <img
-                      src="/images/categories-sneaker.svg"
+                      src="/images/brands-komatsu.jpg"
                       alt=""
                       className="w-100"
                     />
                   </div>
-                  <p className="categories-text">Sneakers</p>
+                  <p className="categories-text">Komatsu</p>
                 </a>
               </div>
               <div
-                className="col-6 col-md-3 col-lg-2"
+                className="col-6 col-md-3 col-lg-2 mx-auto"
                 data-aos="fade-up"
                 data-aos-delay="500"
               >
                 <a href="#" className="component-categories d-block">
                   <div className="categories-image">
                     <img
-                      src="/images/categories-baby.svg"
+                      src="/images/brands-tcm.jpg"
                       alt=""
                       className="w-100"
                     />
                   </div>
-                  <p className="categories-text">Baby</p>
+                  <p className="categories-text">TCM</p>
                 </a>
               </div>
               <div
-                className="col-6 col-md-3 col-lg-2"
+                className="col-6 col-md-3 col-lg-2 mx-auto"
                 data-aos="fade-up"
                 data-aos-delay="600"
               >
                 <a href="#" className="component-categories d-block">
                   <div className="categories-image">
                     <img
-                      src="/images/categories-tools.svg"
+                      src="/images/brands-caterpillar.jpg"
                       alt=""
                       className="w-100"
                     />
                   </div>
-                  <p className="categories-text">Tools</p>
+                  <p className="categories-text">Caterpillar</p>
                 </a>
               </div>
             </div>
